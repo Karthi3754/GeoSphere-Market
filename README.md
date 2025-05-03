@@ -2,16 +2,20 @@
 
 Smart Delivery with Real-Time Integration is a full-stack delivery system that enables users to select their delivery location through Google Maps, integrates real-time location tracking, and offers seamless delivery management for users, admins, and delivery partners.
 
+
 ## 📌 Features
 
-- 🌍 **Google Maps Integration** – Users can select their precise delivery location on a map.
+- 🌍 **Google Maps Integration** – Users can fetch coordinates automatically based on the address they provide.
 - 🛒 **E-commerce Integration** – Add products to cart and proceed to checkout with location selection.
 - 🔐 **Authentication** – Secure login/signup for Users, Admins, and Sellers.
-- 💬 **Admin Dashboard** – View orders and Add Products.
-- 💬 **Seller Dashboard** – View orders with mapped delivery locations.
+- 💬 **Admin Dashboard** – View orders and add products to the system.
+- 💬 **Seller Dashboard** – View user orders along with mapped delivery coordinates.
 - ☁️ **Cloud Storage** – Images and product data stored via Cloudinary.
 - 📡 **MongoDB Integration** – Persistent storage of user data, delivery info, and coordinates.
-- 🗺️ **Separate Map Tab** – Map opens in a new tab, allowing easy Access of location coordinates from the user.
+- 🗺️ **Separate Map Tab (Optional)** – Admin/Seller can optionally open the location in a new tab to view it on Google Maps.
+- 🔄 **WebSocket Integration** – Real-time delivery tracking for users and admins (future enhancement).
+- 💳 **Payment Gateway Integration** – Secure payment handling via Stripe or Razorpay (future enhancement).
+
 
 ---
 
@@ -40,5 +44,11 @@ Smart Delivery with Real-Time Integration is a full-stack delivery system that e
 4. The API returns the corresponding **latitude and longitude**.
 5. These coordinates are automatically stored along with the delivery details.
 6. Only the **seller** has access to view the exact delivery location (lat/lng) for dispatch purposes.
+
+
+## 🚀 Future Enhancements
+
+- 📦 **Live Product Tracking** – Track the live location of the product using WebSocket and GPS.
+- 🔔 **Push Notifications** – Notify users about order status, shipping updates, and delivery alerts.
 
 Happy Coding 🚀🎯
