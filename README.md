@@ -12,9 +12,9 @@ Smart Delivery with Real-Time Integration is a full-stack delivery system that e
 - 💬 **Seller Dashboard** – View user orders along with mapped delivery coordinates.
 - ☁️ **Cloud Storage** – Images and product data stored via Cloudinary.
 - 📡 **MongoDB Integration** – Persistent storage of user data, delivery info, and coordinates.
-- 🗺️ **Separate Map Tab (Optional)** – Admin/Seller can optionally open the location in a new tab to view it on Google Maps.
-- 🔄 **WebSocket Integration** – Real-time delivery tracking for users and admins (future enhancement).
-- 💳 **Payment Gateway Integration** – Secure payment handling via Stripe or Razorpay (future enhancement).
+- 🗺️ **Separate Map Tab** – Seller can open the location in a new tab to view it on Google Maps.
+- 🔄 **WebSocket Integration** – Real-time delivery tracking for users and admins.
+- 💳 **Payment Gateway Integration** – Secure payment handling via Stripe and Razorpay.
 
 
 ---
@@ -32,6 +32,7 @@ Smart Delivery with Real-Time Integration is a full-stack delivery system that e
 - Express.js
 - MongoDB with Mongoose
 - Cloudinary (for image storage)
+- Stripe and Razorpay (for Payment)
 - JWT for Authentication
 
 ---
